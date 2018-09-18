@@ -9,6 +9,7 @@ namespace Project_Lab_1
             
             System.Console.WriteLine("test");
             Console.WriteLine("Hello World!");
+            System.Console.WriteLine("BEST");
         }
     }
 }
