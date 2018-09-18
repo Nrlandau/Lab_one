@@ -39,12 +39,12 @@ namespace Project_Lab_1
             length1 = GetLength(number1);
             length2 = GetLength(number2);
             //handles negitive numbers. Without this inputs 1234 and -1234 turns true.
-            if(length1 == -1)
+            if(number1 < 0)
             {
                 number1 *= -1;
             }
 
-            if(length2 == -1)
+            if(number2 < 0)
             {
                 number2 *= -1;
             }
